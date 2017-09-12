@@ -8,12 +8,52 @@
 /* BASIC SELECTORS */
 
 /* Tag selectors */
+nav {
+  background-color: brown;
+}
+
+main {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+p {
+  color: white;
+  font-size: 12px;
+}
+
+p {
+  color: black;
+}
+
+article {
+  background-color: #7CFFA1;
+  font-size: 20px;
+}
+
+blockquote {
+  background-color: red;
+}
+
+
 
 
 /* Class selectors */
 
+.inline-text {
+  color: white;
+}
+
+.highlight {
+  font-size: 30px;
+  font-style: italic;
+}
+
 
 /* ID selectors */
+#main-article {
+  padding: 30px;
+}
 
 
 
@@ -21,5 +61,28 @@
 
 /* Combining selectors */
 
+span.inline-text {
+  font-size: 40px;
+}
+
+article > h1 {
+  border: 5px solid blue;
+}
+
+header h2 {
+  background-color: purple;
+}
+
+article span .inline-text {
+
+}
+
+
+
+
 
 /* Pseudo-selectors */
+
+article span:hover {
+  background-color: gold;
+}
